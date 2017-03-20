@@ -1,0 +1,18 @@
+.head
+{
+	background-color: black;
+}
+h1
+{
+	color: white;
+	text-align: center;
+}
+form
+{
+	position: relative;
+	margin-top: 10%;
+	margin-left: 20%;
+	font-size: 100;
+
+
+}
