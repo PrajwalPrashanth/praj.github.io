@@ -1,44 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<title>Registration From</title>
-</head>
-<body>
-	<hr/ width="100%" color="grey">
-	<div class="head"> 
-	<h1>PHP Workshop Registration Form</h1>
-	</div>
-	<hr/ width="100%" color="grey">
-	<div class="form">
-	<form method="post" action="mailto:prajapple@gmail.com">
-		<table  >
-			<tr>
-				<td><h2>NAME</h2></td>
-				<td><input type="text" name="first name:" size="20" value="first name" ></td>
-				<td><input type="text" name="middle name:" size="20" value="middle name" ></td>
-				<td><input type="text" name="last name:" size="20" value="last name" ></td>
-			</tr>
-			<tr>
-				<td><h2>USN</h2></td>
-				<td><input type="text" name="usn:" value=""></td>
-			</tr>
-			<tr>
-				<td><h2>DATE OF BIRTH</h2></td>
-				<td><input type="text" name="usn:" value=""></td>
-			</tr>
-			<tr>
-				<td rowspan="3"><h2>OF CLASS</h2></td>
-				<td>
-					<input type="radio" name="class" value="4th sem A" >4th sem A<br>
-					<input type="radio" name="class" value="4th sem B" >4th sem B<br>
-					<input type="radio" name="class" value="4th sem C" >4th sem C<br>
-				</td>
-			</tr>
-		</table>
-		<input type="submit" value="SUBMIT">
-		
-	</form>
-</div>
-</body>
+	<head>
+		<title>LOGIN</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<div class="head">
+			<h1>Varchasva Discussion Portal 2018</h1>
+		</div>
+		<div class="loginBox">
+			<form method="POST" action="entermsg.php">
+				<table >
+					<tr>
+						<td>
+							User Name:
+						</td>
+						<td>
+							<input size="30"type="text" name="usrname" placeholder="enter your name" >
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+						<input type="radio" name="designation" value"guest">Guest &nbsp; <input type="radio" name="designation" value="student-coordinatior">Student Coordinator &nbsp; <input type="radio" name="designation" value="teacher-coordinator">Teacher Coordinator
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="but" type="submit" value="login">
+						</td>
+					</tr>
+				</table>
+			</form>	
+		</div>
+	</body>
 </html>
