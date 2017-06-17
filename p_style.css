@@ -1,0 +1,33 @@
+img
+{
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	opacity: .75;
+}
+.logo
+{
+	margin-top: 8px;
+}
+.logo a
+{
+	font-size: 25px;
+}
+
+nav div a
+{
+	font-size: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgba(97, 0, 0, 0.90);
+}
+.topnav
+{
+	margin-top: 14px
+}
+.theh1
+{
+	position: relative;
+	top: 75px;
+	color: ;
+}
